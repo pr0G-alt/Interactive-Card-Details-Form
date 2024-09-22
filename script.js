@@ -12,6 +12,13 @@ numIn.addEventListener("input", function () {
   numIn.value = numIn.value.replace(/(.{4})/g, "$1 ").trim();
 });
 
+mmIn.addEventListener("keydown", function (e) {
+  if (e.key === " " || e.key === "/" || e.key === "Enter") {
+    e.preventDefault();
+    yyIn.focus();
+  }
+});
+
 confirmBtn.addEventListener("click", confirm);
 
 function confirm() {
@@ -78,9 +85,9 @@ function monthCheck() {
 function charCheck(e, div) {
   let x = blank(e, div);
   let y = charOnly(e, div);
-  let z = latinOnly(e, div);
-  errorOutline(e, x && y && z);
-  return x && y && z;
+  // let z = latinOnly(e, div);
+  errorOutline(e, x && y);
+  return x && y;
 }
 
 function numCheck(e, div) {
@@ -97,12 +104,12 @@ function charOnly(e, div) {
   } else return true;
 }
 
-function latinOnly(e, div) {
-  if (!/^[A-Za-zÀ-ÿ\s]+$/.test(e.value) && e.value !== "") {
-    div.querySelector(".error").textContent = `Wrong format, latin letters only`;
-    return false;
-  } else return true;
-}
+// function latinOnly(e, div) {
+//   if (!/^[A-Za-zÀ-ÿ\s]+$/.test(e.value) && e.value !== "") {
+//     div.querySelector(".error").textContent = `Wrong format, latin letters only`;
+//     return false;
+//   } else return true;
+// }
 
 function numOnly(e, div) {
   if (!/\d/.test(e.value) && e.value !== "") {
