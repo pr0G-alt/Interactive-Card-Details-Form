@@ -1,0 +1,123 @@
+@media (min-width: 480px) {
+  header {
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 730px) {
+  body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header {
+    background: url(../images/bg-main-desktop.png) no-repeat;
+    background-size: cover;
+
+    width: 1000px;
+    min-width: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+  }
+
+  main {
+    padding: 50px;
+    min-width: 380px;
+    width: 100%;
+    max-width: none;
+    margin: none;
+    gap: 25px;
+  }
+
+  #card {
+    padding: 0;
+    flex-direction: column-reverse;
+    max-width: 425px;
+    min-width: 350px;
+    width: 100%;
+    margin-right: -30px;
+  }
+
+  #cardBack {
+    padding: 40px;
+  }
+
+  #cardFront {
+    padding: 25px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  #cardBack,
+  #cardFront {
+    width: 350px;
+  }
+
+  #cardCVC {
+    font-size: 0.9em;
+  }
+
+  #logo {
+    width: 65px;
+  }
+
+  #cardNum {
+    font-size: 1.4em;
+  }
+
+  #frontBottom {
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width: 1100px) {
+  header {
+    width: 600px;
+    justify-content: flex-end;
+  }
+
+  main {
+    min-width: 800px;
+    max-width: 800px;
+    padding: 0 230px;
+  }
+
+  #card {
+    max-width: 540px;
+    min-width: 450px;
+    margin-right: -180px;
+  }
+
+  #cardBack {
+    padding: 50px;
+  }
+
+  #cardFront {
+    padding: 30px;
+  }
+
+  #cardBack,
+  #cardFront {
+    width: 450px;
+  }
+
+  #cardCVC {
+    font-size: 1em;
+  }
+
+  #logo {
+    width: 85px;
+  }
+
+  #cardNum {
+    font-size: 1.8em;
+  }
+
+  #frontBottom {
+    font-size: 0.8em;
+  }
+}
