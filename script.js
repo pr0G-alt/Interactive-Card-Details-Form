@@ -67,7 +67,10 @@ function confirm() {
 }
 
 function monthCheck() {
-  if (mmIn.value < 1 || mmIn.value > 12) expDiv.querySelector(".error").textContent = `Not a valid month`;
+  if (mmIn.value < 1 || mmIn.value > 12) {
+    expDiv.querySelector(".error").textContent = `Not a valid month`;
+    cardMM.textContent = "00";
+  }
   errorOutline(mmIn, mmIn.value >= 1 && mmIn.value <= 12);
   return mmIn.value >= 1 && mmIn.value <= 12;
 }
