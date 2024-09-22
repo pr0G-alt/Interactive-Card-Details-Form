@@ -53,7 +53,7 @@ function confirm() {
 
   if (a && b && c && d && e) {
     document.querySelector("main").innerHTML = `
-    <img id="completeIcon" src="images/icon-complete.svg" />
+    <img id="completeIcon" src="images/icon-complete.svg" alt="Complete Icon" />
     <div id="completeMsg">
     <h1>THANK YOU!</h1>
     <p>We've added your card details</p>
