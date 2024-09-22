@@ -1,6 +1,6 @@
 # Interactive Card Details Form
 
-![Interactive Card Details Form](./screenshot.jpg)
+![Interactive Card Details Form](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Screenshots/tgheyk4kb2vklvfbhdfa.jpg)
 
 ## Overview
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-interactive-card-details-form-ntmhT002bW)
 - [Live Site](https://pr0g-alt.github.io/Interactive-Card-Details-Form/)
 
 ## Built with
