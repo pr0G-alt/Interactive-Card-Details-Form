@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://www.frontendmentor.io/solutions/responsive-interactive-card-details-form-ntmhT002bW)
-- [Live Site](https://pr0g-alt.github.io/Interactive-Card-Details-Form/)
+- [Live Site](https://yousseftawakal.github.io/Interactive-Card-Details-Form/)
 
 ## Built with
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 Feel free to reach out to me if you have any questions or suggestions:
 
-- GitHub: [pr0G-alt](https://github.com/pr0G-alt)
+- GitHub: [pr0G-alt](https://github.com/yousseftawakal)
 - Email: pr0.G@outlook.com
 
 ## Acknowledgments
